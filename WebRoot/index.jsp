@@ -14,18 +14,18 @@
 				<div id="form">
 					<form action="${pageContext.request.contextPath }/servlet/LoginServlet" method="post">
 						<div id="input">
-							<div id="text" class="inline">
-								<input type="text" name="username" value="${form.username }"/>
+							<div id="text">
+								<span>账&nbsp;&nbsp;号</span><input type="text" name="username" value="${form.username }"/>
 							</div>
-							<div id="text" class="inline">
-								<input type="password" name="password" value="${form.password }"/>
+							<div id="text">
+								<span>密&nbsp;&nbsp;码</span><input type="password" name="password" value="${form.password }"/>
 							</div>
-							<div id="btn" class="inline">
+							<div id="btn">
 								<input type="submit" value=" " />
 							</div>
 						</div>
 						<div id="radio">
-							<input type="radio" name="type" value="student" ${form.type=='student'?'checked':'' }/>
+							<input type="radio" name="type" value="student" checked="checked" ${form.type=='student'?'checked':'' }/>
 							<span>学生</span>
 							<input type="radio" name="type" value="teacher" ${form.type=='teacher'?'checked':'' }/>
 							<span>教师</span>

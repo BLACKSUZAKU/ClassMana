@@ -25,7 +25,7 @@
 				<a class="a_demo_three third_button"
 					href="${pageContext.request.contextPath }/servlet/MyActivityServlet?username=${username }"
 					target="main"> 预约教室 </a>
-			</p>
+			</p>	
 		</div>
 	</body>
 </html>

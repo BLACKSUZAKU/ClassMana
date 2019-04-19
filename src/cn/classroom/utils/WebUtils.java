@@ -36,7 +36,7 @@ public class WebUtils {
 		}
 	}
 
-	// 产生全世界唯一的ID
+	// 产生全世界唯一的ID,随机生成id，缺点生成的id字符串较长
 	public static String generateID() {
 		return UUID.randomUUID().toString();
 	}
