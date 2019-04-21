@@ -7,6 +7,12 @@
 	<head>
 		<link type="text/css" rel="stylesheet"
 			href="${pageContext.request.contextPath }/css/mana-main.css" />
+			<style type="text/css">
+				table tr td{
+				text-align:center;
+				}
+			
+			</style>
 		<script type="text/javascript">
    		function altRows(id){
 		    if(document.getElementsByTagName){  

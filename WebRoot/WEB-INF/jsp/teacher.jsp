@@ -7,13 +7,29 @@
 		<link type="text/css" rel="stylesheet"
 			href="${pageContext.request.contextPath }/css/user.css">
 	</head>
-	<frameset rows="95,*" frameborder="no" border="0" framespacing="0">
-		<frame src="${pageContext.request.contextPath }/head.jsp" name="head" scrolling="No" noresize="noresize" />
+	<!--  <frameset rows="95,*" frameborder="no" border="0" framespacing="0">
+		<frame rc="${pageContext.request.contextPath }/head.jsp" name="head" scrolling="No" noresize="noresize" />
 		<frameset cols="242px,*" frameborder="no" border="0" framespacing="0">
 			<frame src="${pageContext.request.contextPath }/servlet/TeacherLeftUIServlet?id=${id }&username=${username }" scrolling="No" noresize="noresize" name="left" />
 			<frame src="${pageContext.request.contextPath }/servlet/MainUIServlet" scrolling="No" noresize="noresize" name="main" />
 		</frameset>
-	</frameset>
+	</frameset> -->
 	<body>
+	<div class="container">
+		<div class="head">
+			<iframe src="${pageContext.request.contextPath }/head.jsp"
+				name="head" scrolling="No"></iframe>
+		</div>
+		<div class="left">
+			<iframe
+				src="${pageContext.request.contextPath }/servlet/TeacherLeftUIServlet?id=${id }&username=${username }" scrolling="No" noresize="noresize" name="left"></iframe>
+		</div>
+		<div class="right">
+			<iframe
+				src="${pageContext.request.contextPath }/servlet/MainUIServlet"
+				scrolling="No" noresize="noresize" name="main"></iframe>
+		</div>
+		<div class="clear"></div>
+		</div>
 	</body>
 </html>

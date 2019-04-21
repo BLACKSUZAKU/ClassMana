@@ -6,7 +6,7 @@
 	<head>
 		<title>My JSP 'left.jsp' starting page</title>
 		<link type="text/css" rel="stylesheet"
-			href="${pageContext.request.contextPath }/css/student-left.css">
+			href="${pageContext.request.contextPath }/css/student-left.css"/>
 	</head>
 
 	<body>

@@ -3,14 +3,49 @@ html {
 	height: 100%;
 	overflow: hidden;
 }
-
+*{
+	margin:0px auto;
+	padding:0px;
+}
 body {
 	margin: 0px auto;
 	padding: 0px;
 	width: 100%;
 	height: 100%;
 	font-size: 12px;
-	background-color: #3385ff;
+	background-color: #e8e7ed;
 	overflow: hidden;
 	text-align: center;
+}
+.container{
+	text-align:center;
+	width:1400px;
+	height:400px;
+	margin-top:70px;
+}
+.head{
+	margin-top:200px;
+}
+.head iframe{
+	width:1400px;
+	height:74px;
+	text-align:left;
+	background-color:#ffffff;
+}
+.left iframe,.right iframe{
+	margin-top:10px;
+	height:100%;
+	background-color:#ffffff;
+}
+.left iframe{
+	width:30%;
+	float:left;
+}
+.right iframe{
+	width:68%;
+	float:right;
+	over-flow:auto;
+}
+.clear{
+	clear:both;
 }

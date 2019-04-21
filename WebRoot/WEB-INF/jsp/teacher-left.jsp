@@ -5,8 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>My JSP 'left.jsp' starting page</title>
-		<link type="text/css" rel="stylesheet"
-			href="${pageContext.request.contextPath }/css/teacher-left.css">
+		<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/student-left.css"/>
 	</head>
 
 	<body>
@@ -19,6 +18,11 @@
 			</p>
 			<p>
 				<a class="a_demo_three third_button" href="${pageContext.request.contextPath }/servlet/ClassroomManaServlet?username=${username }" target="main"> 查看教室 </a>
+			</p>
+			<p>
+				<a class="a_demo_three third_button"
+					href="${pageContext.request.contextPath }/servlet/MyActivityServlet?username=${username }"
+					target="main"> 预约教室 </a>
 			</p>
 		</div>
 	</body>

@@ -9,7 +9,6 @@
 	</head>
 
 	<body>
-		<div id="title" class="inline"></div>
 		<div id="v" class="inline">
 			<span id="version">V1.0</span>
 		</div>

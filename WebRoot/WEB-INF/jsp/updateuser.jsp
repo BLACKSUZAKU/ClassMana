@@ -6,6 +6,12 @@
 	<head>
 		<link type="text/css" rel="stylesheet"
 			href="${pageContext.request.contextPath }/css/form.css">
+			<style type="text/css">
+				table tr td{
+				text-align:center;
+				}
+			
+			</style>
 	</head>
 
 	<body>

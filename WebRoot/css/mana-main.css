@@ -1,8 +1,11 @@
+*{
+	margin:0px auto;
+}
 body {
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 	overflow: hidden;
-	background-image: url(../images/main.gif);
+	background-color: #ffffff;
 }
 
 #container {
@@ -14,7 +17,9 @@ body {
 	margin-top: 44px;
 	margin-left: 40px;
 }
-
+table tr td{
+	text-align:center;
+}
 #add {
 	text-align: center;
 	font-size: 13px;

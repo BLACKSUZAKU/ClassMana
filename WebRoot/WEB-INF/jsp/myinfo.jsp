@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet"
-			href="${pageContext.request.contextPath }/css/form.css">
+			href="${pageContext.request.contextPath }/css/form.css"/>
 	</head>
 
 	<body>
